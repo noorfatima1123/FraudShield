@@ -1,0 +1,17 @@
+# Kafka client for Python; used by the transaction connector for Kafka ingestion
+kafka-python==2.0.2
+
+# YAML config loader for settings.yaml
+pyyaml==6.0
+
+# Environment variable management and .env support
+python-dotenv==1.0.0
+
+# HTTP client library for external API and vendor connectors
+requests==2.31.0
+
+# PostgreSQL adapter (optional) for users connector database access
+psycopg2-binary==2.9.9
+
+# Alternative high-performance Kafka client (optional)
+confluent-kafka==2.3.0
